@@ -108,7 +108,3 @@ footer {
   position: fixed;
   touch-action: none;
 }
-img {
-  text-align: center;
-  flex-direction: column;
-}
