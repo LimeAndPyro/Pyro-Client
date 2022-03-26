@@ -111,7 +111,4 @@ footer {
 img {
   text-align: center;
   flex-direction: column;
-  border-image: auto;
-  margin: auto;
-  image-resolution: 1080;
 }
