@@ -5,10 +5,12 @@
   flex-direction: column;
 }
 html {
+  cursor: url(image.png), default;
+  cursor: url(link.png), pointer;
 }
 
 body {
-  background-image: url(/379126.jpg);
+  background-color: black;
   display: flex;
   height: 100vh;
 
@@ -17,17 +19,26 @@ body {
   height: 100vh;
   align-items: center;
 }
+#bg canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
 
-#bg2 {
-  position: absolute;
+#bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
 }
 
 pre {
-  color: whitesmoke;
+  color: indigo;
   font-size: 20px;
 
   padding: 40vh;
