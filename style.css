@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+html {
+  cursor: url(image.png), default;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+
+  font-family: monospace;
+
+  background-color: black;
+  height: 100vh;
+  align-items: center;
+}
+h1 {
+  color: indigo;
+  font-size: 15px;
+  text-shadow: 20px;
+  text-align: center;
+  text-decoration-style: wavy;
+  font-style: italic;
+  letter-spacing: 6px;
+  flex-direction: column;
+}
+h2 {
+  color: indigo;
+  font-size: 72px;
+  text-align: center;
+  padding: 25vh;
+  font-family: "lato";
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+h3 {
+  color: indigo;
+  font-size: 20px;
+  text-align: center;
+  padding: -40vh;
+  font-family: "lato";
+  text-transform: uppercase;
+  font-style: italic;
+  flex-direction: column;
+}
+h4 {
+  color: indigo;
+  font-size: 12px;
+  text-align: center;
+  padding: 15vh;
+  font-family: "lato";
+  font-style: italic;
+  flex-direction: column;
+}
+h6 {
+  color: rgb(75, 0, 130);
+  font-size: 15px;
+  text-align: center;
+  padding: 40vh;
+  font-family: "lato";
+  font-style: italic;
+  flex-direction: column;
+}
+pre {
+  color: indigo;
+  font-size: 20px;
+  text-align: center;
+  padding: 40vh;
+  font-family: "lato";
+  font-style: italic;
+  flex-direction: column;
+  word-spacing: 2px;
+}
+footer {
+  color: indigo;
+  font-size: 15px;
+  text-align: center;
+  padding: 22vh;
+  font-family: "lato";
+  font-style: inherit;
+  flex-direction: column;
+  word-spacing: 2px;
+}

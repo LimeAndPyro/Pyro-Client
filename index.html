@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter</title>
+    <link rel="icon"    href="eye.png">
+    <meta name="description" content="Are You Lost...................">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+</head>
+<body>
+    <audio id="player" loop muted>
+        <source src="Client website Fixed.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var vAudio = document.getElementById("player");
+        vAudio.volume = 0.3;
+        var hasInit = false;
+        function playMusic()
+        {
+           console.log(vAudio.ended)
+           if(!hasInit)
+           {
+               hasInit = true;
+               vAudio.play();
+           }
+        }
+     </script>
+    
+    <a href="Main.html" onmouseenter="playMusic()">
+        <pre>Click To Enter......</pre>
+    </a>
+   
+    
+</body>
+</html>
